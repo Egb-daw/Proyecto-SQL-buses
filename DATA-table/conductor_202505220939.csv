@@ -1,0 +1,301 @@
+"ID_conductor","telefono","Nombre","Direcion","Turno","Rutas_ID_rutas"
+1,"145-746-3282",Gonzálo,"Av. de Hytasa, 65, 41006 Sevilla",mañana,2
+2,"899-299-8939",Paco,"C. Alfonso XI, 12, 41005 Sevilla",tarde,1
+3,"653-615-4399",Ariadna,"C. Alonso XI, 12, 41007 Sevilla",mañana,4
+4,"431-690-4771",Aislin,"Av. de Hyta, 45, 41016 Sevilla",tarde,3
+5,"945-220-4899",Astrid,"C. Sonso, 12, 41005 Sevilla",tarde,5
+6,"479-891-5403",Amelia,"C. Carmela, 12, 41007 Sevilla",tarde,6
+7,"303-654-6003",Alicia,"333 Havey Court",mañana,8
+8,"727-180-8839",Aurora,"231 Talmadge Lane",tarde,7
+9,"390-511-0817",Beatriz,"96057 Fieldstone Park",mañana,9
+10,"709-279-0767",Blanca,"5 Sloan Point",tarde,10
+11,"204-779-9157",Camila,"03735 Graceland Lane",mañana,11
+12,"928-804-3038",Carlota,"8055 Lillian Circle",tarde,12
+13,"441-470-3348",Alejandro,"41602 2nd Circle",mañana,13
+14,"361-349-7949",Alberto,"9062 Springs Place",tarde,14
+15,"484-380-6212",Andrés,"2 Harbort Plaza",mañana,15
+16,"496-829-3162",Antonio,"6 Myrtle Junction",tarde,4
+17,"518-181-5305",Álvaro,"0 Stone Corner Alley",mañana,13
+18,"415-329-4461",Benjamín,"07669 Lillian Court",tarde,7
+19,"342-519-4474",Bruno,"6 Ridge Oak Road",mañana,6
+20,"556-427-9523",Carlos,"9 Rigney Street",tarde,12
+21,"632-960-5332",Cristóbal,"52 Westport Plaza",mañana,11
+22,"894-273-7070",Daniel,"5029 Crowley Place",tarde,8
+23,"891-512-1959",Carlota,"2 Melrose Pass",mañana,5
+24,"401-938-1586",Clara,"53491 Dayton Pass",tarde,1
+25,"566-866-7154",Constanza,"428 Swallow Terrace",mañana,2
+26,"492-784-3468",Cristina,"11611 Russell Alley",tarde,1
+27,"397-998-1147",Daniela,"61 Fairfield Pass",mañana,6
+28,"632-538-8636",Diana,"87580 Blackbird Pass",tarde,7
+29,"525-145-4159",Dolores,"93227 Vidon Circle",mañana,1
+30,"410-483-2182",Elena,"349 Nevada Point",tarde,1
+31,"205-142-5893",Elisa,"6 Stoughton Point",mañana,8
+32,"727-704-9927",Emilia,"8 American Alley",tarde,15
+33,"218-513-6600",Estela,"16 Carpenter Lane",mañana,9
+34,"403-287-3651",Eva,"249 Tennessee Pass",tarde,14
+35,"618-251-7245",Gabriela,"4 Sycamore Park",mañana,14
+36,"893-538-9742",Genoveva,"66 Steensland Alley",tarde,2
+37,"114-161-6180",Gloria,"6 Becker Terrace",mañana,1
+38,"808-472-3256",Guadalupe,"0287 Cody Avenue",tarde,4
+39,"767-795-5605",Helena,"177 Steensland Road",mañana,3
+40,"816-200-0783",Isabel,"7 Prairieview Road",tarde,5
+41,"874-312-3770",Itzel,"44 Reinke Place",mañana,6
+42,"529-110-6825",Jazmín,"2668 Fuller Junction",tarde,8
+43,"919-161-4239",Julia,"3 Waxwing Lane",mañana,7
+44,"189-851-3093",Daniel,"71788 Lakeland Place",tarde,9
+45,"187-910-2683",David,"34 Tennessee Parkway",mañana,10
+46,"272-425-2252",Diego,"98789 Delladonna Park",tarde,11
+47,"504-482-1641",Emilio,"820 Knutson Crossing",mañana,12
+48,"199-778-8355",Enrique,"082 Hauk Drive",tarde,13
+49,"379-870-9067",Ethan,"48 Spaight Park",mañana,14
+50,"362-122-6862",Fernando,"681 Portage Center",tarde,15
+51,"851-973-9588",Francisco,"42464 Artisan Center",mañana,4
+52,"849-296-1341",Gabriel,"155 Sunfield Park",tarde,13
+53,"933-887-8569",Gonzalo,"03 Heffernan Pass",mañana,7
+54,"691-595-2754",Gregorio,"39 Veith Parkway",tarde,6
+55,"507-349-9864",Hugo,"3 Mitchell Point",mañana,12
+56,"751-689-8717",Ignacio,"3 Pankratz Park",tarde,11
+57,"727-713-7946",Iván,"026 Express Plaza",mañana,8
+58,"169-715-2523",Javier,"306 Manley Street",tarde,5
+59,"614-890-9700",Joaquín,"18 Ridgeway Way",mañana,1
+60,"694-770-3314",Jorge,"98415 Transport Junction",tarde,2
+61,"533-365-6154",José,"8 Canary Street",mañana,1
+62,"634-558-1032",Leonardo,"98 Merrick Court",tarde,6
+63,"326-137-6381",Lorenzo,"30 Commercial Way",mañana,7
+64,"988-347-3969",Lucas,"9398 Sunnyside Way",tarde,1
+65,"356-516-0042",Lucía,"0193 Delaware Way",mañana,1
+66,"304-808-8178",Laila,"996 Marcy Way",tarde,8
+67,"801-516-1796",Lola,"426 Wayridge Parkway",mañana,15
+68,"125-647-1160",María,"48159 Autumn Leaf Circle",tarde,9
+69,"108-918-9495",Martina,"865 Killdeer Terrace",mañana,14
+70,"152-449-3729",Milagros,"193 Butterfield Trail",tarde,14
+71,"776-326-4097",Minerva,"7 Oriole Avenue",mañana,2
+72,"316-735-5224",Noelia,"64 Ridge Oak Center",tarde,1
+73,"339-880-6326",Olivia,"5 Pennsylvania Alley",mañana,4
+74,"990-759-3727",Paula,"1 Anzinger Crossing",tarde,3
+75,"885-657-6011",Renata,"32382 Surrey Alley",mañana,5
+76,"985-382-1902",Rosario,"49761 Stone Corner Terrace",tarde,6
+77,"483-892-4244",Sofía,"7 Red Cloud Point",mañana,8
+78,"560-988-2854",Valeria,"5657 Dahle Circle",tarde,7
+79,"144-396-1471",Victoria,"26054 Arapahoe Park",mañana,9
+80,"203-771-3850",Ximena,"02160 Susan Pass",tarde,10
+81,"558-818-5238",Yasmín,"9 Elmside Junction",mañana,11
+82,"807-190-4769",Zenobia,"3 Stoughton Parkway",tarde,12
+83,"295-416-8472",Zoila,"04399 Golden Leaf Point",mañana,13
+84,"687-835-9593",Manuel,"5205 Beilfuss Junction",tarde,14
+85,"709-756-0652",Marco,"2913 Crowley Trail",mañana,15
+86,"318-594-0203",Mateo,"93598 Arapahoe Center",tarde,4
+87,"513-702-2230",Miguel,"31605 Michigan Place",mañana,13
+88,"629-535-2137",Nicolás,"661 New Castle Avenue",tarde,7
+89,"250-198-5884",Pablo,"3 Killdeer Crossing",mañana,6
+90,"650-250-2946",Pedro,"9 Lyons Court",tarde,12
+91,"760-902-8416",Raúl,"12 Arizona Park",mañana,11
+92,"927-975-1086",Ricardo,"6451 Corry Crossing",tarde,8
+93,"260-979-6727",Rodrigo,"01789 Nevada Drive",mañana,5
+94,"462-680-2266",Sergio,"696 Hauk Drive",tarde,1
+95,"214-257-0036",Sebastián,"32 Larry Alley",mañana,2
+96,"197-702-6829",Tomás,"4117 Merrick Circle",tarde,1
+97,"140-146-2978",Valentín,"66 Mayer Trail",mañana,6
+98,"891-711-2110",Vicente,"76 Barby Point",tarde,7
+99,"219-889-4893",Xabier,"9027 Mayer Place",mañana,1
+100,"214-911-4431",Yamal,"81 Maple Road",tarde,1
+101,"973-779-5747",Bourke,"8557 Graedel Drive",mañana,8
+102,"180-695-1395",Berty,"82 Melby Park",tarde,15
+103,"182-178-1249",Neysa,"656 Morning Junction",mañana,9
+104,"287-695-5345",Lyssa,"0266 Nobel Parkway",tarde,14
+105,"183-606-2704",Simonne,"1541 Grayhawk Way",mañana,14
+106,"626-687-4728",Dael,"14 Jana Plaza",tarde,2
+107,"916-258-8014",Rollo,"76 Duke Road",mañana,1
+108,"935-404-8344",Carroll,"0 Memorial Road",tarde,4
+109,"600-859-5747",Christine,"86121 Browning Trail",mañana,3
+110,"534-497-5188",Annie,"212 Arapahoe Terrace",tarde,5
+111,"487-714-9359",Anna-maria,"42984 1st Plaza",mañana,6
+112,"145-504-6606",Kial,"28 Express Junction",tarde,8
+113,"482-866-3371",Issi,"2 Utah Park",mañana,7
+114,"558-508-7107",Bill,"4768 Florence Place",tarde,9
+115,"293-934-6639",Alyda,"2 Amoth Parkway",mañana,10
+116,"824-582-9866",Ammamaria,"78 Lukken Junction",tarde,11
+117,"646-999-4968",Ricardo,"620 Vermont Parkway",mañana,12
+118,"103-452-3936",Demott,"26309 Vernon Court",tarde,13
+119,"379-982-8175",Tibold,"2580 Lien Junction",mañana,14
+120,"176-614-3301",Candis,"90825 Melby Road",tarde,15
+121,"401-117-4288",Lynea,"1 Towne Plaza",mañana,4
+122,"162-525-4647",Humfrid,"2290 Southridge Terrace",tarde,13
+123,"807-998-1166",Lucia,"466 Debra Drive",mañana,7
+124,"755-620-4669",Cicily,"8 Ridgeview Trail",tarde,6
+125,"363-853-3526",Iolande,"0 Prairie Rose Avenue",mañana,12
+126,"982-105-2710",Eugene,"8 Summer Ridge Way",tarde,11
+127,"391-207-0041",Carolee,"8187 Scott Crossing",mañana,8
+128,"745-328-3230",Beltran,"43 Harper Terrace",tarde,5
+129,"406-176-8189",Esteban,"80 Prairie Rose Plaza",mañana,1
+130,"726-990-3272",Caddric,"9456 Forest Point",tarde,2
+131,"928-479-6574",Rozina,"74 Logan Crossing",mañana,1
+132,"594-961-8440",Manon,"2 Cottonwood Avenue",tarde,6
+133,"884-293-2912",Adria,"06627 Manley Hill",mañana,7
+134,"151-244-2596",Ailene,"1 Bayside Alley",tarde,1
+135,"797-375-6576",Lira,"1 Schmedeman Drive",mañana,1
+136,"480-808-8810",Loutitia,"50372 Glendale Street",tarde,8
+137,"864-787-8545",Hilliard,"44 Vahlen Junction",mañana,15
+138,"524-401-0364",Fenelia,"847 Maple Wood Park",tarde,9
+139,"384-464-8759",Ebony,"92920 Fairfield Trail",mañana,14
+140,"646-720-1980",Hazlett,"24691 Clemons Hill",tarde,14
+141,"640-103-6474",Linnet,"00 Gulseth Pass",mañana,2
+142,"130-324-6114",Adriaens,"0399 Warner Street",tarde,1
+143,"522-410-8251",Kimball,"2282 Londonderry Road",mañana,4
+144,"265-286-1495",Billy,"62 Shopko Point",tarde,3
+145,"191-587-4092",Normand,"5319 Sauthoff Terrace",mañana,5
+146,"724-244-0230",Jammal,"5 Huxley Hill",tarde,6
+147,"570-210-7158",Archibold,"2 Pond Point",mañana,8
+148,"722-585-8368",Atlante,"4 Monterey Place",tarde,7
+149,"857-207-3335",Carolyne,"26 Muir Avenue",mañana,9
+150,"382-642-6822",Rubina,"9 Havey Parkway",tarde,10
+151,"836-827-6027",Bryan,"92 Kropf Alley",mañana,11
+152,"904-837-5115",Weider,"39 Green Court",tarde,12
+153,"555-326-1944",Eb,"5292 Armistice Road",mañana,13
+154,"909-702-1183",Carolin,"1428 Dennis Circle",tarde,14
+155,"963-451-3916",Lesya,"51959 Paget Lane",mañana,15
+156,"486-742-1983",Fransisco,"361 Namekagon Park",tarde,4
+157,"284-982-2398",Enid,"20 Golf Center",mañana,13
+158,"105-864-2633",Onfroi,"3601 Emmet Crossing",tarde,7
+159,"523-538-3983",Ingunna,"0700 American Plaza",mañana,6
+160,"463-724-7548",Loydie,"00 Killdeer Crossing",tarde,12
+161,"139-498-8384",Shelby,"88798 Mitchell Way",mañana,11
+162,"992-728-2232",Winny,"8 Kennedy Street",tarde,8
+163,"254-910-1403",Bibi,"7 Rusk Pass",mañana,5
+164,"298-151-6661",Maxy,"55756 Elgar Place",tarde,1
+165,"438-957-7368",Dee dee,"93 Harbort Center",mañana,2
+166,"613-367-9149",Cyrillus,"6517 Garrison Place",tarde,1
+167,"760-767-1358",Mackenzie,"02530 Morningstar Alley",mañana,6
+168,"950-720-7496",Frazer,"2614 Comanche Circle",tarde,7
+169,"692-655-8663",Kirby,"5211 Hazelcrest Junction",mañana,1
+170,"363-401-3875",Christie,"17 Havey Street",tarde,1
+171,"390-154-1006",Marleah,"5 Esker Way",mañana,8
+172,"290-297-7050",Ediva,"2 Oak Valley Park",tarde,15
+173,"771-840-5459",Percival,"07821 Rigney Point",mañana,9
+174,"578-505-8031",Hobey,"443 Dawn Parkway",tarde,14
+175,"922-617-1814",Elianora,"09904 Boyd Park",mañana,14
+176,"757-600-0421",Madison,"4 Summit Drive",tarde,2
+177,"223-520-1926",Jacki,"6 Cordelia Plaza",mañana,1
+178,"962-325-7605",Cristen,"295 Hoepker Pass",tarde,4
+179,"574-903-1589",Teddi,"362 Laurel Parkway",mañana,3
+180,"616-935-5396",Emmerich,"89 Fairview Pass",tarde,5
+181,"553-433-1562",Annora,"02 Oakridge Drive",mañana,6
+182,"708-322-1724",Karrie,"0422 Monica Avenue",tarde,8
+183,"731-689-8127",Faustina,"04059 Washington Place",mañana,7
+184,"959-950-8779",Chere,"54 Sullivan Trail",tarde,9
+185,"977-437-2400",Bonita,"9293 Walton Street",mañana,10
+186,"837-250-6380",Catrina,"38 Claremont Terrace",tarde,11
+187,"579-858-7488",Ebeneser,"0911 American Ash Way",mañana,12
+188,"846-572-5010",Anson,"5675 Pankratz Way",tarde,13
+189,"634-264-0772",Sutherlan,"69709 Donald Place",mañana,14
+190,"172-720-3800",Reginauld,"65194 Jana Hill",tarde,15
+191,"660-637-1278",Adriane,"7514 Northwestern Way",mañana,4
+192,"275-103-9734",Johny,"44501 Buell Lane",tarde,13
+193,"449-232-4459",Cori,"24 New Castle Street",mañana,7
+194,"680-608-3695",Ginni,"665 Vermont Place",tarde,6
+195,"267-907-6037",Annamarie,"15236 Trailsway Plaza",mañana,12
+196,"893-477-3279",Flss,"11512 Pennsylvania Place",tarde,11
+197,"534-212-0518",Loren,"36731 Larry Pass",mañana,8
+198,"650-115-3638",Jacynth,"07790 Eagle Crest Junction",tarde,5
+199,"303-990-2212",Giraldo,"820 Carey Place",mañana,1
+200,"961-650-0046",Freemon,"01010 Golf Parkway",tarde,2
+201,"913-550-8656",Tallulah,"9741 Alpine Parkway",mañana,1
+202,"112-694-6018",Barbette,"3 Pepper Wood Way",tarde,6
+203,"536-297-8089",Grethel,"6 Arrowood Hill",mañana,7
+204,"803-437-5570",Tommie,"40 Sullivan Park",tarde,1
+205,"424-773-8274",Martina,"835 Duke Drive",mañana,1
+206,"679-730-3773",De witt,"1193 Lakeland Avenue",tarde,8
+207,"437-788-1877",Cordelia,"1118 Stang Parkway",mañana,15
+208,"719-229-6008",Jarib,"08 Saint Paul Terrace",tarde,9
+209,"528-138-1559",Huberto,"7 Blackbird Road",mañana,14
+210,"271-654-8034",Frances,"5 Lindbergh Avenue",tarde,14
+211,"276-226-7380",Cheryl,"75 Fisk Street",mañana,2
+212,"974-871-1945",Kaja,"44 Golden Leaf Pass",tarde,1
+213,"187-607-7886",Wilmar,"2 Birchwood Crossing",mañana,4
+214,"562-760-3161",Blondelle,"0827 Blackbird Center",tarde,3
+215,"827-429-0903",Kelcy,"11189 Evergreen Way",mañana,5
+216,"513-297-6684",Kristofor,"7423 American Park",tarde,6
+217,"318-703-4520",Sherwynd,"15730 Carberry Court",mañana,2
+218,"829-319-2398",Tymon,"2054 New Castle Way",tarde,1
+219,"428-432-8271",Kenon,"86 Prairieview Alley",mañana,4
+220,"719-474-7269",Wendy,"95 Grim Parkway",tarde,3
+221,"304-785-8083",Ileana,"005 Petterle Road",mañana,5
+222,"234-953-7128",Roda,"12 6th Alley",tarde,6
+223,"754-706-2459",Merle,"7 Superior Pass",mañana,8
+224,"841-713-5976",Jorey,"64809 Alpine Place",tarde,7
+225,"424-645-1769",Annabal,"4 Westend Parkway",mañana,9
+226,"606-575-2473",Kathe,"83 Hazelcrest Trail",tarde,10
+227,"630-154-0728",Dyan,"402 Mariners Cove Terrace",mañana,11
+228,"587-149-5693",Thurston,"25 Comanche Pass",tarde,12
+229,"996-158-1680",Portie,"7 Laurel Drive",mañana,13
+230,"378-224-0810",Maggie,"9 Sachs Trail",tarde,14
+231,"684-695-9193",Flynn,"1396 Northfield Street",mañana,15
+232,"983-490-0642",Ottilie,"1469 Autumn Leaf Lane",tarde,4
+233,"509-281-2636",Renee,"328 Eagan Trail",mañana,13
+234,"835-342-4142",Judi,"95385 High Crossing Alley",tarde,7
+235,"383-207-8673",Leonie,"4 Bartillon Center",mañana,6
+236,"763-154-4817",Falkner,"95529 Arizona Lane",tarde,12
+237,"766-939-0529",Billie,"182 Granby Trail",mañana,11
+238,"197-216-7136",Britni,"18805 Texas Parkway",tarde,8
+239,"218-578-7414",Tracy,"838 Evergreen Road",mañana,5
+240,"963-325-9600",Auroora,"116 4th Road",tarde,1
+241,"629-142-7550",Ricoriki,"5 Elka Trail",mañana,2
+242,"619-134-1628",Barbara,"025 Messerschmidt Street",tarde,1
+243,"609-739-7676",Monica,"2198 North Alley",mañana,6
+244,"572-333-6508",Vinny,"78668 Northport Drive",tarde,7
+245,"591-840-8688",Ansley,"969 Meadow Vale Terrace",mañana,1
+246,"415-277-6451",Anet,"18 Stuart Avenue",tarde,1
+247,"671-975-2601",Wendel,"4617 Hanson Place",mañana,8
+248,"858-320-6292",Melinde,"143 Mosinee Center",tarde,15
+249,"304-648-7975",Oralle,"1 South Court",mañana,9
+250,"835-227-0701",Nichol,"99 Sunfield Point",tarde,14
+251,"304-360-9970",Faber,"84 Heffernan Lane",mañana,14
+252,"838-963-4094",Karil,"849 Graceland Pass",tarde,2
+253,"464-684-1036",Jaime,"08 Schurz Parkway",mañana,1
+254,"148-885-0199",Ruy,"1738 Hooker Park",tarde,4
+255,"228-690-7762",Wanda,"369 Lakeland Pass",mañana,3
+256,"632-983-4812",Pascal,"43247 Loeprich Trail",tarde,5
+257,"220-776-6082",Sydel,"6409 Annamark Trail",mañana,6
+258,"563-124-6064",Carine,"5 Little Fleur Crossing",tarde,8
+259,"675-421-5117",Craig,"525 Fair Oaks Drive",mañana,7
+260,"663-634-5281",Anya,"0648 Boyd Alley",tarde,9
+261,"586-453-2489",Evangelina,"5029 Hayes Circle",mañana,10
+262,"464-517-2657",Frederica,"9513 Bunting Terrace",tarde,11
+263,"194-255-2931",Brandice,"1 Oneill Street",mañana,12
+264,"623-756-6145",Umberto,"4493 Burrows Drive",tarde,13
+265,"463-984-6359",Malissa,"9 Moose Center",mañana,14
+266,"561-234-4515",Bay,"279 Anniversary Hill",tarde,15
+267,"891-184-4150",Kelwin,"41 Sullivan Crossing",mañana,4
+268,"777-487-5263",Court,"6970 Morrow Road",tarde,13
+269,"832-809-4853",Pamela,"4304 Vera Pass",mañana,7
+270,"231-990-6990",Nehemiah,"5 Magdeline Center",tarde,6
+271,"578-939-2062",Parnell,"3 Stone Corner Circle",mañana,12
+272,"767-180-6376",Willey,"7842 Randy Court",tarde,11
+273,"572-135-5866",Jackquelin,"195 Independence Drive",mañana,8
+274,"828-890-6106",Patric,"47848 Atwood Court",tarde,5
+275,"314-427-5626",Vanni,"42444 Sycamore Circle",mañana,1
+276,"940-208-7505",Adrianne,"260 Nova Court",tarde,2
+277,"327-632-4008",Hamlen,"1 Tony Plaza",mañana,1
+278,"633-741-0502",Shel,"9861 Hermina Point",tarde,6
+279,"638-798-5372",Alisun,"3 Dakota Terrace",mañana,7
+280,"319-166-5070",Wilfred,"14209 Hoard Pass",tarde,1
+281,"444-840-1540",Mariele,"93 Center Avenue",mañana,1
+282,"118-643-6217",Grissel,"659 Grasskamp Court",tarde,8
+283,"836-598-9929",Gasper,"5874 Clove Trail",mañana,15
+284,"919-547-0219",Ken,"13660 Mallory Lane",tarde,9
+285,"614-568-1021",Florentia,"808 Burrows Terrace",mañana,14
+286,"940-591-3003",Domini,"35251 Fieldstone Hill",tarde,14
+287,"719-496-2700",Phillida,"606 Lakewood Center",mañana,2
+288,"268-715-1330",Sadella,"0422 6th Hill",tarde,1
+289,"158-351-7784",Anthe,"339 Cordelia Park",mañana,4
+290,"678-115-3295",Teri,"11741 Golf Avenue",tarde,3
+291,"251-170-4440",Lorine,"3 Crest Line Hill",mañana,5
+292,"607-520-2495",Vanya,"16 Comanche Center",tarde,6
+293,"888-718-3597",Babita,"1055 Laurel Street",mañana,8
+294,"998-601-6048",Gerry,"60743 Granby Crossing",tarde,7
+295,"724-431-2089",Kalle,"3 Mockingbird Court",mañana,9
+296,"217-778-1660",Hastie,"537 Florence Park",tarde,10
+297,"791-718-4303",Samuele,"0826 Tennessee Way",mañana,11
+298,"436-718-2102",Lezlie,"04039 American Drive",tarde,12
+299,"620-371-3320",Griffy,"04038 Americant Drive",mañana,13
+300,"434-101-4844",Emerson,"04012 Armenia Drive",tarde,14
