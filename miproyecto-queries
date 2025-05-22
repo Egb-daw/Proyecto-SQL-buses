@@ -1,0 +1,219 @@
+use central_de_autobuses;
+
+SELECT a.ID_andenes , COUNT(b.ID_autobus) AS total_autobuses
+FROM Andenes a LEFT JOIN Autobus b
+ON a.ID_andenes = b.Andenes_ID_andenes
+GROUP BY a.ID_andenes ;
+
+
+-- 
+
+SELECT c.Nombre, r.ID_rutas, r.Tiempo_recorido
+FROM Conductor c INNER JOIN Rutas r 
+ON c.Rutas_ID_rutas = r.ID_rutas
+where r.Tiempo_recorido > '50';
+
+
+--
+SELECT DISTINCT c.Nombre, c.telefono
+FROM Conductor c JOIN Rutas r 
+ON c.Rutas_ID_rutas = r.ID_rutas
+JOIN Autobus a ON r.ID_rutas = a.Rutas_ID_rutas
+GROUP BY c.ID_conductor, c.Nombre, c.telefono
+HAVING COUNT(a.ID_autobus) > 1;
+
+--
+SELECT r.ID_rutas, SUM(a.N_asientos) AS Total_Asientos
+FROM Rutas r JOIN Autobus a 
+ON r.ID_rutas = a.Rutas_ID_rutas
+GROUP BY r.ID_rutas;
+
+--
+
+SELECT p.Rutas_ID_rutas, COUNT(p.ID_paradas) AS Num_Paradas
+FROM Paradas p
+GROUP BY p.Rutas_ID_rutas
+ORDER BY Num_Paradas DESC;
+
+
+-- vistas
+
+CREATE VIEW Vista_Conductores_Rutas_Multiples AS
+SELECT DISTINCT c.Nombre, c.telefono
+FROM Conductor c JOIN Rutas r 
+ON c.Rutas_ID_rutas = r.ID_rutas
+JOIN Autobus a ON r.ID_rutas = a.Rutas_ID_rutas
+GROUP BY c.ID_conductor, c.Nombre, c.telefono
+HAVING COUNT(a.ID_autobus) > 1;
+
+SELECT * FROM Vista_Conductores_Rutas_Multiples;
+
+-- 
+
+CREATE VIEW Vista_Asientos_Por_Ruta AS
+SELECT r.ID_rutas, SUM(a.N_asientos) AS Total_Asientos
+FROM Rutas r JOIN Autobus a 
+ON r.ID_rutas = a.Rutas_ID_rutas
+GROUP BY r.ID_rutas;
+
+SELECT * FROM Vista_Asientos_Por_Ruta;
+
+
+-- funciones
+
+DELIMITER $$
+
+CREATE FUNCTION Calcular_Costo_Ruta(id_ruta INT) 
+RETURNS DECIMAL(10,2)
+DETERMINISTIC
+BEGIN
+    DECLARE costo_total DECIMAL(10,2);
+    
+    SELECT SUM(CAST(r.Precio AS DECIMAL(10,2))) * COUNT(a.ID_autobus)
+    INTO costo_total
+    FROM Rutas r JOIN Autobus a 
+    ON r.ID_rutas = a.Rutas_ID_rutas
+    WHERE r.ID_rutas = id_ruta;
+
+    RETURN costo_total;
+END$$
+
+DELIMITER ;
+
+select Calcular_Costo_Ruta('1');
+
+-- 
+
+DELIMITER $$
+
+CREATE FUNCTION Contar_Paradas(id_ruta INT) 
+RETURNS INT
+DETERMINISTIC
+BEGIN
+    DECLARE num_paradas INT;
+    
+    SELECT COUNT(ID_paradas) INTO num_paradas
+    FROM Paradas
+    WHERE Rutas_ID_rutas = id_ruta;
+    
+    RETURN num_paradas;
+END$$
+
+DELIMITER ;
+
+select Contar_Paradas('1');
+
+-- Procedimientos
+
+DELIMITER $$
+
+CREATE PROCEDURE Mostrar_Costo_Ruta(IN id_ruta INT)
+BEGIN
+    SELECT id_ruta AS ID_Ruta, Calcular_Costo_Ruta(id_ruta) AS Costo_Total;
+END$$
+
+DELIMITER ;
+
+call Mostrar_Costo_Ruta(1);
+
+-- 
+DELIMITER $$
+
+CREATE PROCEDURE Listar_Conductores()
+BEGIN
+    DECLARE done INT DEFAULT FALSE;
+    DECLARE conductor_nombre VARCHAR(45);
+    DECLARE ruta_id INT;
+    
+    -- Declaración del cursor
+    DECLARE conductor_cursor CURSOR FOR
+        SELECT Nombre, Rutas_ID_rutas FROM Conductor;
+    
+    -- Manejador de finalización
+    DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = TRUE;
+
+    -- Abrir cursor
+    OPEN conductor_cursor;
+
+    -- Recorrer los valores
+    read_loop: LOOP
+        FETCH conductor_cursor INTO conductor_nombre, ruta_id;
+        IF done THEN
+            LEAVE read_loop;
+        END IF;
+        
+        -- Mostrar resultado
+        SELECT conductor_nombre AS Nombre, ruta_id AS ID_Ruta;
+    END LOOP;
+
+    -- Cerrar cursor
+    CLOSE conductor_cursor;
+END$$
+
+DELIMITER ;
+
+call Listar_Conductores();
+
+-- 
+DELIMITER $$
+
+CREATE PROCEDURE Insertar_Autobus(IN id_autobus INT,IN matricula VARCHAR(45),IN n_asientos INT,IN id_anden INT,IN id_ruta INT)
+BEGIN
+    INSERT INTO Autobus (ID_autobus, Matricula, N_asientos, Andenes_ID_andenes, Rutas_ID_rutas)
+    VALUES (id_autobus, matricula, n_asientos, id_anden, id_ruta);
+END$$
+
+DELIMITER ;
+
+CALL Insertar_Autobus(217,'3000-EGB',34,6,3);
+
+
+-- trigers 
+DELIMITER $$
+
+CREATE TRIGGER Verificar_Matricula_Antes_Insertar
+BEFORE INSERT ON Autobus
+FOR EACH ROW
+BEGIN
+    IF NEW.Matricula IS NULL OR NEW.Matricula = '' THEN
+        SIGNAL SQLSTATE '45000'
+        SET MESSAGE_TEXT = 'ERROR: No se puede insertar un autobús sin matrícula';
+    END IF;
+END$$
+
+DELIMITER ;
+
+INSERT INTO Autobus (ID_autobus, Matricula, N_asientos, Andenes_ID_andenes, Rutas_ID_rutas)
+VALUES (1, '', 45, 1, 1);-- no tiene matricula para que salte la excepcion
+
+
+--
+DELETE TABLE Historial_Turnos IF EXIT ;
+CREATE TABLE IF NOT EXISTS Historial_Turnos (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    ID_conductor INT,
+    Turno_Anterior VARCHAR(45),
+    Turno_Nuevo VARCHAR(45),
+    Fecha_Cambio TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);-- la misma que conductor pero con un nuevo campo y sin las FK
+
+DELIMITER $$
+
+CREATE TRIGGER Registrar_Cambio_Turno
+AFTER UPDATE ON Conductor
+FOR EACH ROW
+BEGIN
+    IF OLD.Turno <> NEW.Turno THEN
+        INSERT INTO Historial_Turnos (ID_conductor, Turno_Anterior, Turno_Nuevo)
+        VALUES (OLD.ID_conductor, OLD.Turno, NEW.Turno);
+    END IF;
+END$$
+
+DELIMITER ;
+
+UPDATE Conductor
+SET Turno = 'tarde'
+WHERE ID_conductor = 5;
+
+
+
